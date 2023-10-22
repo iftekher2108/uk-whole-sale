@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="keywords" content="">
+    <!-- website icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- font awesome css link path -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- boostrap css link path -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- slick slider path -->
+    <link rel="stylesheet" href="./asset/css/slick/slick-theme.css">
+    <link rel="stylesheet" href="./asset/css/slick/slick.css">
+
+        <!-- custom css link path -->
+        <link rel="stylesheet" href="./asset/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- =============================header section =========================================== -->
+    <header>
+
+        <!-- ==========================top-banner======================================= -->
+        <div
+            class="top-banner position-sticky top-0 text-white bg-dark py-2 py-lg-4 py-md-3 px-3 py-sm-2 gap-sm-2 gap-1 align-items-center  d-flex justify-content-around">
+
+            <div
+                class="banner-info  d-flex align-items-center justify-content-lg-between gap-lg-5 gap-md-4 gap-sm-3 gap-1  flex-lg-row flex-md-row flex-sm-row flex-column-reverse ">
+                <div class="contact">
+                    <p class="m-0"><span class="fw-bold">Address : </span> Dhaka, Bnagladesh </p>
+                    <p class="m-0"><span class="fw-bold">Phone : </span>+88017859498, +88075839823 </p>
+                </div>
+
+                <div class="logo">
+                    <img src="./asset/image/logo.png" class="img-fluid p-0 m-0" alt="">
+
+                </div>
+            </div>
+
+
+            <div
+                class="log-reg d-flex flex-lg-row align-self-baseline flex-md-row flex-sm-row flex-column gap-lg-3 gap-md-2 gap-sm-1 gap-1">
+                <button class="btn px-lg-3 px-md-3  rounded-0 px-sm-2 btn-danger">Log in</button>
+                <button class="btn px-lg-3 px-md-3  rounded-0 px-sm-2 btn-success">Register</button>
+            </div>
+
+        </div>
+
+
+
+
+        <!-- =================================top-banner ================================= -->
+
+
+
+
+        <!-- ==================================all catagory menu and search menu=================== -->
+
+
+
+        <nav class="navbar py-4 navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+
+                <ul class="navbar-nav d-flex gap-4 me-auto my-2 my-lg-0 navbar-nav-scroll">
+
+
+
+                    <div class="dropdown">
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                All Categories
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action </a>
+
+                                    <ul class="dropdown-menu dropdown-submenu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action <i
+                                                    class="fa-solid fa-angles-right"></i></a>
+                                            <ul class="dropdown-menu dropdown-submenu"
+                                                aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here <i
+                                                    class="fa-solid fa-angles-right"></i></a>
+                                            <ul class="dropdown-menu dropdown-submenu"
+                                                aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                </li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a>
+
+                                    <ul class="dropdown-menu dropdown-submenu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here <i
+                                                    class="fa-solid fa-angles-right"></i></a>
+                                            <ul class="dropdown-menu dropdown-submenu"
+                                                aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control rounded-0 form-control-lg pe-5 me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn px-4 btn-outline-success rounded-0" type="submit">Search</button>
+                </form>
+
+            </div>
+        </nav>
+
+
+
+
+
+
+
+
+
+        <!-- ==================================all catagory menu and search menu=================== -->
+
+
+
+
+
+    </header>
+    <!-- =============================header section =========================================== -->
+
+
+    <!-- ===========================main section ====================================== -->
+    <main>
+
+        <div class="letest-top">
+            <br>
+
+
+            <!-- ==================================main hero section============================ -->
+
+            <div class="row px-lg-4 mb-2 px-2 g-3">
+
+                <!-- ==================================hero slide=================================== -->
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 overflow-hidden">
+                
+                        <div class="hero-slider ">
+                            <div class="slide-item">
+                                <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+                
+                
+                            </div>
+                
+                
+                            <div class="slide-item ">
+                                <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+                 
+                            </div>
+                            
+                        </div>
+
+
+
+                </div>
+
+
+                <!-- ====================================hero slide ====================================== -->
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="row g-2 mb-2">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                        </div>
+                    </div>
+                    <div class="row  g-2">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <!-- ==================================main hero section============================ -->
+
+
+
+
+        <!-- ==================================== cetagory menu ====================================== -->
+
+
+        <div class="cetagory-menu">
+
+
+            <div class="row g-2 px-lg-4 mb-2 px-2">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                </div>
+
+            </div>
+
+            <div class="row g-2 px-lg-4 px-2">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- ====================================cetagory menu ========================================= -->
+
+
+
+        <!-- =======================================sessional cetagory==================================== -->
+
+
+        <div class="sessional-cetagory my-2">
+            <div class="row g-2 px-lg-4 px-2">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- =======================================sessional cetagory==================================== -->
+
+
+
+    <!-- =============================================letest product slider========================================== -->
+
+
+    <div class="letest-product px-lg-4 pt-4 px-2 overflow-hidden">
+        <div class="d-flex justify-content-around">
+            <h3>Latest products</h3>
+            <button type="button" class="slick-next">next</button>
+
+
+
+        </div>
+
+        <div class="product-slider pt-5 mt-5 mx-lg-4 mx-2 ">
+            <div class="slide-item">
+                <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+
+            </div>
+
+
+            <div class="slide-item ">
+                <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+ 
+            </div>
+            
+        </div>
+
+    </div>
+
+    <!-- =============================================letest product slider========================================== -->
+
+
+
+    <!-- =============================================== our brand======================================================== -->
+
+    <div class="our-brand-product px-lg-4 pt-3 px-2 overflow-hidden">
+        <div class="d-flex justify-content-around">
+            <h3>Our Brand Product</h3>
+            <button type="button" class="slick-next">next</button>
+
+
+
+        </div>
+
+        <div class="product-slider pt-5 mt-5 mx-lg-4 mx-2 ">
+            <div class="slide-item">
+                <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+
+            </div>
+
+
+            <div class="slide-item ">
+                <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+ 
+            </div>
+            
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- ===============================================our brand ================================================================== -->
+
+
+    
+    <div class="our-best-seller px-lg-4 pt-3 px-2 overflow-hidden">
+        <div class="d-flex justify-content-around">
+            <h3>Our Brand Product</h3>
+            <button type="button" class="slick-next">next</button>
+
+
+
+        </div>
+
+        <div class="product-slider pt-5 mt-5 mx-lg-4 mx-2 ">
+            <div class="slide-item">
+                <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+
+            </div>
+
+
+            <div class="slide-item ">
+                <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+ 
+            </div>
+            
+        </div>
+
+    </div>
+
+
+
+
+    <!-- ================================================= best sales ================================================================ -->
+
+    
+    
+    <div class="our-best-seller px-lg-4 pt-3 px-2 overflow-hidden">
+        <div class="d-flex justify-content-around">
+            <h3>Our Brand Product</h3>
+            <button type="button" class="slick-next">next</button>
+
+
+
+        </div>
+
+        <div class="product-slider pt-5 mt-5 mx-lg-4 mx-2 ">
+            <div class="slide-item">
+                <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+
+
+            </div>
+
+
+            <div class="slide-item">
+                <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
+ 
+            </div>
+
+
+            
+        </div>
+
+    </div>
+
+
+
+    <!-- ================================================= best sales ================================================================ -->
+
+
+
+
+
+    <!-- ==================================================service section============================================== -->
+
+    <div class="service overflow-hidden">
+
+        <div class="d-flex gap-2 px-5">
+
+            <div class="col-lg-4 col-md-4  overflow-hidden rounded-3  col-sm-12">
+                
+                <div class="row bg-dark-subtle">
+                   <div class="col-4 fs-1 d-flex align-items-center justify-content-center text-white rounded-end-circle" style="background-color: #192655;">
+                        <i class="fa-regular fa-pen-to-square"></i>
+                    </div>                   
+                     
+                    <div class="col-8 d-flex flex-column">
+                        <h3 class="mt-2">Register Now</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, error?</p>
+                        <button class="btn btn-warning fw-bold align-self-end mb-3 me-3">Register <i class="fa-solid fa-circle-right"></i></button>
+                    </div>
+                </div>
+  
+            </div>
+
+
+
+
+            <div class="col-lg-4 col-md-4 col-sm-12  overflow-hidden rounded-3">
+                
+                <div class="row bg-dark-subtle">
+                    <div class="col-4 fs-1 d-flex align-items-center justify-content-center text-white rounded-end-circle" style="background-color: #192655;">
+                         <i class="fa-regular fa-pen-to-square"></i>
+                     </div>                   
+                      
+                     <div class="col-8 d-flex flex-column">
+                         <h3 class="mt-2">Register Now</h3>
+                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, error?</p>
+                         <button class="btn btn-warning fw-bold align-self-end mb-3 me-3">Register <i class="fa-solid fa-circle-right"></i></button>
+                     </div>
+                 </div>
+                
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12  overflow-hidden rounded-3">
+                
+                <div class="row bg-dark-subtle">
+                    <div class="col-4 fs-1 d-flex align-items-center justify-content-center text-white rounded-end-circle" style="background-color: #192655;">
+                         <i class="fa-regular fa-pen-to-square"></i>
+                     </div>                   
+                      
+                     <div class="col-8 d-flex flex-column">
+                         <h3 class="mt-2">Register Now</h3>
+                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, error?</p>
+                         <button class="btn btn-warning fw-bold align-self-end mb-3 me-3">Register <i class="fa-solid fa-circle-right"></i></button>
+                     </div>
+                 </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- ===================================================service section=============================================== -->
+
+
+    </main>
+    <!-- ===========================main section ====================================== -->
+
+
+<br>
+
+
+    <!-- ==========================footer  section ================================ -->
+            <footer class="p-5 text-white" style="background-color: #192655;">
+              <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-md-5 offset-md-1 mb-3">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2022 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+              </div>
+            </footer>
+
+    <!-- ===========================footer section ================================ -->
+
+
+
+
+    <!-- ==========jquery js link path================ -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- ==============bootstrap js link path=============== -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- ====================slick slider============================ -->
+    <script src="./asset/js/slick/slick.min.js"></script>
+    <!-- ====================custom js link path==================== -->
+    <script src="./asset/js/main.js"></script>
+
+</body>
+
+</html>
