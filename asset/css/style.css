@@ -6,13 +6,34 @@
 }
 
 
+html {
+    overflow-x: hidden;
+}
 
+
+header {
+    z-index: 500;
+}
+
+nav {
+    background:#192655;
+    color: white;
+}
 
 
 /* dropdown submenu */
+
+.dropdown-item {
+        display: flex;
+        gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .dropdown-menu li {
     position: relative;
     background: white;
+
 }
 
 ul {
@@ -46,3 +67,129 @@ ul {
     display: block;
 }
 /* dropdown submenu */
+
+
+
+/* top banner */
+
+.top-banner {
+    background: #192655;
+}
+
+
+/* top- banner */
+
+
+/* category menu */
+
+.cat-menu {
+    overflow: hidden;
+}
+
+
+
+.info {
+    height:100%;
+    width: 100% ;
+    background: #FFC107;
+    color: white;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+
+.info button {
+    background:#1F4172;
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+}
+
+.info button:hover,.info button:focus {
+    background:#0d50af;
+    color: white;
+
+}
+
+.cat-menu:hover .info {
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+}
+
+
+
+/* category menu */
+
+
+
+
+
+/* letest product */
+
+
+.letest-product h1 {    
+    background-color: #192655;
+    border-color: #FFC107 !important;
+    color: white;
+    padding: 1rem !important;
+}
+
+
+
+/* letest product */
+
+
+
+/* card style  */
+.card {
+    border-color:transparent;
+
+}
+
+.card > p {
+    top: 5%;
+    background:#192655;
+}
+
+
+.card h5 {
+    color: #1F4172;
+}
+
+
+.card a:nth-child(1) {
+    background: #1F4172;
+    font-weight: bold;
+    opacity: 0.9;
+}
+.card a:nth-child(2) {
+    background: #FFC107; 
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+
+/* card style */
+
+
+/* scroll top */
+.scroll-top {
+    z-index: 600;
+
+    bottom: 3%;
+    right: 3%;
+}
+
+
+
+/* scroll top */
