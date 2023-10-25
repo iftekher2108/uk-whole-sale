@@ -37,6 +37,7 @@ nav {
 
 
 .menu {
+    display: none;
     z-index: 550;
     background: #19265591;
     min-width: 15rem;
