@@ -53,3 +53,11 @@ $('.hero-slider').slick({
 $(".hero-slider .slick-prev").css({"top":"47%","left":"3%","z-index":"30"});
 $(".hero-slider .slick-next").css({"top":"47%","right":" 5.5%"});
 // hero slide arrow css
+
+
+// catagory hide show
+$(".main-cat-btn").click(function(){
+  $(".menu").toggle(400)
+})
+
+// catagory hide show
