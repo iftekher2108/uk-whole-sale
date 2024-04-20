@@ -97,7 +97,7 @@ nav ::-webkit-scrollbar {
 }
 
 
-ul li {
+header ul li {
     list-style: none;
     border-bottom: 1px solid rgb(112, 111, 111);
     position: relative;
@@ -108,7 +108,7 @@ ul li {
     -o-transition: all 0.3s ease;
 }
 
-li a {
+header li a {
     color: #ffffff;
     padding: 0.5rem 0rem;
     text-decoration: none !important;
@@ -119,15 +119,15 @@ li a {
     -o-transition: all 0.3s ease;
 }
 
-li a p {
+header li a p {
     margin: 0px;
 }
 
-li a:hover {
+header li a:hover {
     color: #f5cb10fd;
 }
 
-ul li:last-child {
+header ul li:last-child {
     border: none;
 }
 
@@ -223,6 +223,11 @@ ul li:last-child {
 
 
 /* card style  */
+
+.slide-item .card {
+    margin: auto;
+}
+
 .card {
     border-color: transparent;
 
