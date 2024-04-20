@@ -9,15 +9,17 @@
     <!-- website icon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
+    <!-- boostrap css link path -->
+    <link rel="stylesheet" href="./asset/plugins/bootstrap/css/bootstrap.min.css">
+
+    <!-- slick slider path -->
+    <link rel="stylesheet" href="./asset/plugins/slick/slick.css">
+    <link rel="stylesheet" href="./asset/plugins/slick/slick-theme.css">
+
     <!-- font awesome css link path -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- boostrap css link path -->
-    <link rel="stylesheet" href="./asset/plugins/bootstrap/dist/css/bootstrap.min.css">
-    <!-- slick slider path -->
-    <link rel="stylesheet" href="./asset/css/slick/slick-theme.css">
-    <link rel="stylesheet" href="./asset/css/slick/slick.css">
 
     <!-- custom css link path -->
     <link rel="stylesheet" href="./asset/css/style.css">
@@ -29,10 +31,10 @@
     <!-- scroll top -->
 
     <div class="scroll-top position-fixed">
-        <a href="#" class="bg-warning py-2 rounded-pill px-3" >
-          <i class="fa-solid fa-arrow-up text-white "></i>  
+        <a href="#" class="rounded shadow">
+            <i class="fa-solid fa-arrow-up text-white"></i>
         </a>
-        
+
     </div>
 
 
@@ -56,33 +58,32 @@
 
 
     <!-- =============================header section =========================================== -->
-    <header class="position-sticky top-0">
+    <header class="container-fluid position-sticky top-0 py-3 bg-primary">
 
         <!-- ==========================top-banner======================================= -->
-        <div
-            class="top-banner position-sticky top-0 text-white  py-2 py-lg-4 py-md-3 px-3 py-sm-2 gap-sm-2 gap-1 align-items-center  d-flex justify-content-around">
+        <div class="top-banner">
+          <div class="text-white row align-items-center p-2">
 
-            <div
-                class="banner-info  d-flex align-items-center justify-content-lg-between gap-lg-5 gap-md-4 gap-sm-3 gap-1  flex-lg-row flex-md-row flex-sm-row flex-column-reverse ">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6 d-lg-block d-md-none d-sm-none d-none">
                 <div class="contact">
                     <p class="m-0"><span class="fw-bold">Address : </span> Dhaka, Bnagladesh </p>
                     <p class="m-0"><span class="fw-bold">Phone : </span>+8890342859, +889845038450 </p>
                 </div>
+            </div>
 
-                <div class="logo">
-                    <img src="./asset/image/logo.png" class="img-fluid p-0 m-0" alt="">
-
+            <div class="col-lg-6 col-md-8 col-sm-10 d-flex justify-content-end">
+                <div
+                    class="log-reg d-flex gap-3 me-0">
+                    <button class="btn px-lg-5 px-md-3 rounded-2 shadow-sm fw-semibold rounded-0 px-sm-2  btn-light">Log
+                        in</button>
+                    <button
+                        class="btn px-lg-5 px-md-3 rounded-2 fw-semibold text-white shadow-sm  rounded-0 px-sm-2 btn-warning">Register</button>
                 </div>
             </div>
 
-
-            <div
-                class="log-reg d-flex flex-lg-row align-self-baseline flex-md-row flex-sm-row flex-column gap-lg-3 gap-md-2 gap-sm-1 gap-1">
-                <button class="btn px-lg-5 px-md-3 rounded-2 shadow-sm fw-semibold rounded-0 px-sm-2  btn-light">Log in</button>
-                <button class="btn px-lg-5 px-md-3 rounded-2 fw-semibold text-white shadow-sm  rounded-0 px-sm-2 btn-warning">Register</button>
-            </div>
-
+        </div>  
         </div>
+        
 
 
 
@@ -96,305 +97,178 @@
 
 
 
-    
-<nav class=" p-2">
-<div class="container d-flex ">
-
-
-                
-    <div class="category container position-relative">
-        <button class="btn main-cat-btn fs-5 px-4">All Categories</button>
-    
-        <ul class="menu mt-2 position-absolute overflow-visible rounded-2 top-100 p-3">
-            <li class="mt-2"><a href="#" class="d-flex align-items-center justify-content-between"><p>name</p><i class="fa-solid fa-chevron-right"></i></a>
-            
-            <ul class="sub-menu rounded-2 p-2 m-0">
-                <li><a href="#" >home</a></li>
-                <li><a href="#" >about</a></li>
-                <li><a href="#" >contact</a></li>
-                <li><a href="#" >career</a></li>
-                <li><a href="#" >product</a></li>
-
-            </ul> 
-            
-            
-            </li>
-
-
-            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between"><p>name</p><i class="fa-solid fa-chevron-right"></i></a>
-            
-                <ul class="sub-menu rounded-2 p-2 m-0">
-                    <li><a href="#" >home</a></li>
-                    <li><a href="#" >about</a></li>
-                    <li><a href="#" >contact</a></li>
-                    <li><a href="#" >career</a></li>
-                    <li><a href="#" >product</a></li>
-    
-                </ul> 
-
-            </li>
-
-
-            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between"><p>name</p><i class="fa-solid fa-chevron-right"></i></a>
-            
-                <ul class="sub-menu rounded-2 p-2 m-0">
-                    <li><a href="#" >home</a></li>
-                    <li><a href="#" >about</a></li>
-                    <li><a href="#" >contact</a></li>
-                    <li><a href="#" >career</a></li>
-                    <li><a href="#" >product</a></li>
-    
-                </ul> 
-
-            </li>
-
-
-            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between"><p>name</p><i class="fa-solid fa-chevron-right"></i></a>
-            
-                <ul class="sub-menu rounded-2 p-2 m-0">
-                    <li><a href="#" >home</a></li>
-                    <li><a href="#" >about</a></li>
-                    <li><a href="#" >contact</a></li>
-                    <li><a href="#" >career</a></li>
-                    <li><a href="#" >product</a></li>
-    
-                </ul> 
-
-            </li>
-
-
-            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between"><p>name</p><i class="fa-solid fa-chevron-right"></i></a>
-            
-                <ul class="sub-menu rounded-2 p-2 m-0">
-                    <li><a href="#" >home</a></li>
-                    <li><a href="#" >about</a></li>
-                    <li><a href="#" >contact</a></li>
-                    <li><a href="#" >career</a></li>
-                    <li><a href="#" >product</a></li>
-    
-                </ul> 
 
-            </li>
+        <nav class=" p-2">
+            <div class=" row justify-content-evenly">
 
+                <div class="col-lg-4 col-md-6 col-sm-6 col-7">
+                    <div class="category position-relative">
+                        <button class="btn main-cat-btn fs-6 px-4">All Categories</button>
 
-            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between"><p>name</p><i class="fa-solid fa-chevron-right"></i></a>
-            
-                <ul class="sub-menu rounded-2 p-2 m-0">
-                    <li><a href="#" >home</a></li>
-                    <li><a href="#" >about</a></li>
-                    <li><a href="#" >contact</a></li>
-                    <li><a href="#" >career</a></li>
-                    <li><a href="#" >product</a></li>
-    
-                </ul> 
+                        <ul class="menu mt-2 position-absolute overflow-visible rounded-2 top-100 p-3">
+                            <li class="mt-2"><a href="#" class="d-flex align-items-center justify-content-between">
+                                    <p>Toy</p><i class="fa-solid fa-chevron-right"></i>
+                                </a>
 
-            </li>
+                                <ul class="sub-menu animate-slideIn rounded-2 p-2 m-0">
+                                    <li><a href="#">Outdoor Toys</a></li>
+                                    <li><a href="#">Remote Control Toys</a></li>
+                                    <li><a href="#">Doll & Soft Toys</a></li>
+                                    <li><a href="#">Roll Play & Dress Up</a></li>
+                                    <li><a href="#">Games & Activities</a></li>
 
+                                </ul>
 
-            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between"><p>name</p><i class="fa-solid fa-chevron-right"></i></a>
-            
-                <ul class="sub-menu rounded-2 p-2 m-0">
-                    <li><a href="#" >home</a></li>
-                    <li><a href="#" >about</a></li>
-                    <li><a href="#" >contact</a></li>
-                    <li><a href="#" >career</a></li>
-                    <li><a href="#" >product</a></li>
-    
-                </ul> 
 
-            </li>
+                            </li>
 
 
-            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between"><p>name</p><i class="fa-solid fa-chevron-right"></i></a>
-            
-                <ul class="sub-menu rounded-2 p-2 m-0">
-                    <li><a href="#" >home</a></li>
-                    <li><a href="#" >about</a></li>
-                    <li><a href="#" >contact</a></li>
-                    <li><a href="#" >career</a></li>
-                    <li><a href="#" >product</a></li>
-    
-                </ul> 
+                            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between">
+                                    <p>Garden</p><i class="fa-solid fa-chevron-right"></i>
+                                </a>
 
-            </li>
+                                <ul class="sub-menu animate-slideIn rounded-2 p-2 m-0">
+                                    <li><a href="#">Garden Tools and Accessories</a></li>
+                                    <li><a href="#">Planting & Growing</a></li>
+                                    <li><a href="#">Decorative and Novelty</a></li>
+                                    <li><a href="#">Outdoor Lighting</a></li>
+                                    <li><a href="#">Pest Killers & Deterrents</a></li>
 
+                                </ul>
 
-            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between"><p>name</p><i class="fa-solid fa-chevron-right"></i></a>
-            
-                <ul class="sub-menu rounded-2 p-2 m-0">
-                    <li><a href="#" >home</a></li>
-                    <li><a href="#" >about</a></li>
-                    <li><a href="#" >contact</a></li>
-                    <li><a href="#" >career</a></li>
-                    <li><a href="#" >product</a></li>
-    
-                </ul> 
+                            </li>
 
-            </li>
 
+                            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between">
+                                    <p>Leisure & Hobbies</p><i class="fa-solid fa-chevron-right"></i>
+                                </a>
 
-            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between"><p>name</p><i class="fa-solid fa-chevron-right"></i></a>
-            
-                <ul class="sub-menu rounded-2 p-2 m-0">
-                    <li><a href="#" >home</a></li>
-                    <li><a href="#" >about</a></li>
-                    <li><a href="#" >contact</a></li>
-                    <li><a href="#" >career</a></li>
-                    <li><a href="#" >product</a></li>
-    
-                </ul> 
+                                <ul class="sub-menu animate-slideIn rounded-2 p-2 m-0">
+                                    <li><a href="#">Cycling</a></li>
+                                    <li><a href="#">Sports, Gym & Fitness</a></li>
+                                    <li><a href="#">Camping</a></li>
+                                    <li><a href="#">Vaping & Smoking</a></li>
+                                    <li><a href="#">Travel Supplies</a></li>
 
-            </li>
+                                </ul>
 
+                            </li>
 
-            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between"><p>name</p><i class="fa-solid fa-chevron-right"></i></a>
-            
-                <ul class="sub-menu rounded-2 p-2 m-0">
-                    <li><a href="#" >home</a></li>
-                    <li><a href="#" >about</a></li>
-                    <li><a href="#" >contact</a></li>
-                    <li><a href="#" >career</a></li>
-                    <li><a href="#" >product</a></li>
-    
-                </ul> 
 
-            </li>
+                            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between">
+                                    <p>Baby Supplies</p><i class="fa-solid fa-chevron-right"></i>
+                                </a>
 
+                                <ul class="sub-menu animate-slideIn rounded-2 p-2 m-0">
+                                    <li><a href="#">Baby Weaning & Feeding</a></li>
+                                    <li><a href="#">Baby & Infant Toys</a></li>
+                                    <li><a href="#">Baby Changing & Wipes</a></li>
+                                    <li><a href="#">Baby Blankets, Bibs & Babywear</a></li>
+                                    <li><a href="#">Baby Accessories</a></li>
+                                    <li><a href="#">Baby Shower</a></li>
+                                </ul>
 
-        </ul>
-    </div>
+                            </li>
 
 
+                            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between">
+                                    <p>Cleaning</p><i class="fa-solid fa-chevron-right"></i>
+                                </a>
 
+                                <ul class="sub-menu animate-slideIn rounded-2 p-2 m-0">
+                                    <li><a href="#">Cleaning Wipes & Sprays</a></li>
+                                    <li><a href="#">Sponges, Scourers & Cloths</a></li>
+                                    <li><a href="#">Brooms, Mops & Brushes</a></li>
+                                    <li><a href="#">Cleaning Products</a></li>
+                                    <li><a href="#">Laundry Supplies</a></li>
+                                    <li><a href="#">Dehumidifiers</a></li>
+                                </ul>
 
+                            </li>
 
 
+                            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between">
+                                    <p>Kitchenware</p><i class="fa-solid fa-chevron-right"></i>
+                                </a>
 
+                                <ul class="sub-menu animate-slideIn rounded-2 p-2 m-0">
+                                    <li><a href="#">Kitchen Utensils & Cutlery</a></li>
+                                    <li><a href="#">Crockery & Dinnerware</a></li>
+                                    <li><a href="#">Chopping Boards & Graters</a></li>
+                                    <li><a href="#">Cooking</a></li>
+                                    <li><a href="#">Baking</a></li>
+                                    <li><a href="#">Foil</a></li>
+                                    <li><a href="#">Plastic & Disposable</a></li>
+                                    <li><a href="#">Storage Boxes & Containers</a></li>
+                                </ul>
 
+                            </li>
 
 
+                            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between">
+                                    <p>Health & Beauty</p><i class="fa-solid fa-chevron-right"></i>
+                                </a>
 
+                                <ul class="sub-menu animate-slideIn rounded-2 p-2 m-0">
+                                    <li><a href="#">First Aid & Medical Supplies</a></li>
+                                    <li><a href="#">Plasters & Bandages</a></li>
+                                    <li><a href="#">Dental</a></li>
+                                    <li><a href="#">Skin Care</a></li>
+                                    <li><a href="#">Foot Care</a></li>
+                                    <li><a href="#">Shoe Care</a></li>
+                                    <li><a href="#">Hair Care</a></li>
+                                    <li><a href="#">Makeup Supplies</a></li>
+                                    <li><a href="#">Glasses & Optical</a></li>
+                                    <li><a href="#">Hand & Nail</a></li>
 
 
+                                </ul>
 
+                            </li>
 
 
+                            <li class="mt-2"><a href="#" class="d-flex align-items-center  justify-content-between">
+                                    <p>Homeware</p><i class="fa-solid fa-chevron-right"></i>
+                                </a>
 
+                                <ul class="sub-menu animate-slideIn rounded-2 p-2 m-0">
+                                    <li><a href="#">Artificial Flowers</a></li>
+                                    <li><a href="#">Sewing & Knitting Supplies</a></li>
+                                    <li><a href="#">Photo Frames</a></li>
+                                    <li><a href="#">Pest Control</a></li>
+                                    <li><a href="#">Bathroom Accessories</a></li>
+                                    <li><a href="#">Home Accessories</a></li>
+                                </ul>
 
+                            </li>
 
 
+                        </ul>
+                    </div>
 
+                </div>
 
 
+                <div class="col-lg-4 col-md-4 col-sm-4 col-5">
 
+                        <a href="./index.html" class="d-sm-block d-sm-block">
+                            <img src="./asset/image/logo.png" class="img-fluid" alt="logo">
+                        </a>
 
+                </div>
 
 
+                <div class="col-lg-4 col-md-6 col-sm-12 d-lg-block d-md-none d-none d-sm-none">
 
+                        <form class="d-flex gap-1 flex-lg-nowrap flex-md-nowrap flex-wrap"
+                            role="search">
+                            <input class="form-control rounded-2 form-control-md pe-5 me-2" type="search"
+                                placeholder="Search" aria-label="Search">
+                            <button class="btn px-5 fw-bold btn-outline-warning rounded-2" type="submit">Search</button>
+                        </form>
 
+                </div>
 
-
-
-<!-- 
-                <ul class=" d-flex gap-4 me-auto my-2 my-lg-0">
-
-
-                        <div class="dropdown">
-                            <button class="btn text-white dropdown-toggle fs-5" type="button" id="dropdownMenuButton1"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                All Categories
-                            </button>
-                            <ul class="dropdown-menu pe-2" aria-labelledby="dropdownMenuButton1">
-
-                                <li><a class="dropdown-item" href="#"> <p> sessional</p> <i class="fa-solid fa-chevron-right "></i></a>
-
-                                    <ul class="dropdown-menu dropdown-submenu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">coronation</a></li>
-                                        <li><a class="dropdown-item" href="#"> <p>summer</p> <i class="fa-solid fa-chevron-right "></i> </a>
-                                            
-                                            <ul class="dropdown-menu dropdown-submenu"
-                                                aria-labelledby="dropdownMenuButton1">
-                                                <li><a class="dropdown-item" href="#">jaket</a></li>
-                                                <li><a class="dropdown-item" href="#">Bag</a></li>
-                                                <li><a class="dropdown-item" href="#">note book</a></li>
-                                            </ul>
-                                        </li>
-
-                                        <li><a class="dropdown-item" href="#"><p>whole sale pond line</p> <i class="fa-solid fa-chevron-right "></i></a>
-                                            <ul class="dropdown-menu dropdown-submenu"
-                                                aria-labelledby="dropdownMenuButton1">
-                                                <li><a class="dropdown-item" href="#">toy pond line</a></li>
-                                                <li><a class="dropdown-item" href="#">diy pound line</a></li>
-                                                <li><a class="dropdown-item" href="#">pet pound line</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-
-                                </li>
-                                <li><a class="dropdown-item" href="#">baby suppies</a></li>
-                                <li><a class="dropdown-item" href="#">pet suppies   <i class="fa-solid fa-chevron-right "></i></a>
-
-                                    <ul class="dropdown-menu dropdown-submenu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">health</a></li>
-                                        <li><a class="dropdown-item" href="#">hobby</a></li>
-                                        <li><a class="dropdown-item" href="#">homeware <i class="fa-solid fa-chevron-right "></i></a>
-                                            <ul class="dropdown-menu dropdown-submenu"
-                                                aria-labelledby="dropdownMenuButton1">
-                                                <li><a class="dropdown-item" href="#">diy</a></li>
-                                                <li><a class="dropdown-item" href="#">electrical</a></li>
-                                                <li><a class="dropdown-item" href="#">pet suppies</a></li>
-                                            </ul>
-
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li><a class="dropdown-item" href="#">home suppies</a></li>
-
-                                <li><a class="dropdown-item" href="#">baby suppies</a></li>
-
-                                <li><a class="dropdown-item" href="#">men tshirt</a></li>
-
-                                <li><a class="dropdown-item" href="#">woman cosmetics</a></li>
-
-                                <li><a class="dropdown-item" href="#">electrical</a></li>
-
-                                <li><a class="dropdown-item" href="#">Homeware</a></li>
-
-                                <li><a class="dropdown-item" href="#">cleaner</a></li>
-
-                                <li><a class="dropdown-item" href="#">baby suppies</a></li>
-
-                                <li><a class="dropdown-item" href="#">car cares</a></li>
-
-                                <li><a class="dropdown-item" href="#">stationary</a></li>
-
-
-
-
-
-
-
-
-
-
-                            </ul>
-                        </div>
-
-
-
-                </ul>
-                 -->
-                 <div class="col-lg-6 col-md-6 col-sm-12">
-
-                 <form class="d-flex gap-1 flex-lg-nowrap flex-md-nowrap flex-wrap" role="search">
-                    <input class="form-control rounded-2 form-control-md pe-5 me-2" type="search" placeholder="Search"
-                        aria-label="Search">
-                    <button class="btn px-5 fw-bold btn-outline-warning rounded-2" type="submit">Search</button>
-                </form>
-
-                 </div>
-                
 
             </div>
         </nav>
@@ -438,15 +312,15 @@
                             <img src="./asset/image/hero-product/hero-img-1.jpg" class="img-fluid" alt="">
                         </div>
 
-<!-- 
+                        <!-- 
                         <div class="slide-item">
                             <img src="./asset/image/hero-product/hero-img-2.jpg" class="img-fluid" alt="">
                         </div> -->
 
-                      <div class="slide-item">
+                        <div class="slide-item">
                             <img src="./asset/image/hero-product/hero-img-3.jpg" class="img-fluid" alt="">
                         </div>
-<!-- 
+                        <!-- 
                         <div class="slide-item">
                             <img src="./asset/image/hero-product/hero-image.jpg" class="img-fluid" alt="">
                         </div>
@@ -514,7 +388,7 @@
                     <img src="./asset/image/catagory/cleaner.jpg" class="img-fluid p-0 m-0" alt="">
 
                     <div class="info d-flex position-absolute flex-column align-items-center justify-content-center">
-                        <h1 class="text-center"> Cleaner  </h1>
+                        <h1 class="text-center"> Cleaner </h1>
                         <button class="btn rounded-0 ">Shop Now</button>
 
                     </div>
@@ -525,7 +399,7 @@
                     <img src="./asset/image/catagory/diy.jpg" class="img-fluid p-0 m-0" alt="">
 
                     <div class="info d-flex position-absolute flex-column align-items-center justify-content-center">
-                        <h1 class="text-center"> Diy  </h1>
+                        <h1 class="text-center"> Diy </h1>
                         <button class="btn rounded-0 ">Shop Now</button>
 
                     </div>
@@ -536,7 +410,7 @@
                     <img src="./asset/image/catagory/pet-supply.jpg" class="img-fluid p-0 m-0" alt="">
 
                     <div class="info d-flex position-absolute flex-column align-items-center justify-content-center">
-                        <h1 class="text-center"> Pet Suppies  </h1>
+                        <h1 class="text-center"> Pet Suppies </h1>
                         <button class="btn rounded-0 ">Shop Now</button>
 
                     </div>
@@ -547,7 +421,7 @@
                     <img src="./asset/image/catagory/baby-supply.jpg" class="img-fluid p-0 m-0" alt="">
 
                     <div class="info d-flex position-absolute flex-column align-items-center justify-content-center">
-                        <h1 class="text-center"> Baby Suppies  </h1>
+                        <h1 class="text-center"> Baby Suppies </h1>
                         <button class="btn rounded-0 ">Shop Now</button>
 
                     </div>
@@ -564,7 +438,7 @@
                     <img src="./asset/image/catagory/kichen.jpg" class="img-fluid p-0 m-0" alt="">
 
                     <div class="info d-flex position-absolute flex-column align-items-center justify-content-center">
-                        <h1 class="text-center"> Kichenware  </h1>
+                        <h1 class="text-center"> Kichenware </h1>
                         <button class="btn rounded-0 ">Shop Now</button>
 
                     </div>
@@ -576,7 +450,7 @@
                     <img src="./asset/image/catagory/stationary.jpg" class="img-fluid p-0 m-0" alt="">
 
                     <div class="info d-flex position-absolute flex-column align-items-center justify-content-center">
-                        <h1 class="text-center"> Stationary  </h1>
+                        <h1 class="text-center"> Stationary </h1>
                         <button class="btn rounded-0 ">Shop Now</button>
 
                     </div>
@@ -586,7 +460,7 @@
                     <img src="./asset/image/catagory/homeware.jpg" class="img-fluid p-0 m-0" alt="">
 
                     <div class="info d-flex position-absolute flex-column align-items-center justify-content-center">
-                        <h1 class="text-center"> Homeware  </h1>
+                        <h1 class="text-center"> Homeware </h1>
                         <button class="btn rounded-0 ">Shop Now</button>
 
                     </div>
@@ -597,15 +471,15 @@
                     <img src="./asset/image/catagory/toy.jpg" class="img-fluid p-0 m-0" alt="">
 
                     <div class="info d-flex position-absolute flex-column align-items-center justify-content-center">
-                        <h1 class="text-center"> Toy  </h1>
+                        <h1 class="text-center"> Toy </h1>
                         <button class="btn rounded-0 ">Shop Now</button>
 
                     </div>
                 </div>
 
-            
 
-               
+
+
 
             </div>
 
@@ -655,7 +529,8 @@
 
         <div class="letest-product px-lg-4 pt-5 px-2 overflow-hidden">
             <div class="d-flex justify-content-around">
-                <h1 class="fw-bold border-start border-end border-2 flex-grow-1 text-center border-black pb-2">Latest products</h1>
+                <h1 class="fw-bold border-start border-end border-2 flex-grow-1 text-center border-black pb-2">Latest
+                    products</h1>
             </div>
 
 
@@ -664,184 +539,200 @@
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
 
-                    <div class="card shadow-sm position-relative border-2" style="width: 18rem;" >
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext Product</p>
-                        <img src="./asset/image/letest_product/latest-poduct-1.jpg" class="card-img-top" alt="product-img">
-                        <div class="card-body">
-                          <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
-
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
-
-                            <a href="#" class="btn text-white flex-grow-1" >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1"  >Add To Cart</a>
-                          </div>
-                          
-                        </div>
-                      </div>
-
-                </div>
-
-                <div class="slide-item px-lg-2 px-md-2 px-sm-2">
-         
                     <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0" >Latext Product</p>
-                        <img src="./asset/image/letest_product/latest-poduct-2.jpg" class="card-img-top" alt="product-img">
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext
+                            Product</p>
+                        <img src="./asset/image/letest_product/latest-poduct-1.jpg" class="card-img-top"
+                            alt="product-img">
                         <div class="card-body">
-                          <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
 
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
 
-                            <a href="#" class="btn text-white flex-grow-1" >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1" >Add To Cart</a>
-                          </div>
-                          
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
                         </div>
-                      </div>
-
-                </div>
-
-                <div class="slide-item px-lg-2 px-md-2 px-sm-2">
-                 
-                    <div class="card shadow-sm position-relative border-2" style="width: 18rem; ">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext Product</p>
-                        <img src="./asset/image/letest_product/latest-poduct-3.jpg" class="card-img-top" alt="product-img">
-                        <div class="card-body">
-                          <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
-
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
-
-                            <a href="#" class="btn text-white flex-grow-1" >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1"  >Add To Cart</a>
-                          </div>
-                          
-                        </div>
-                      </div>
-
-                </div>
-
-                <div class="slide-item px-lg-2 px-md-2 px-sm-2">
-                                        <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext Product</p>
-                        <img src="./asset/image/letest_product/latest-poduct-4.jpg" class="card-img-top" alt="product-img">
-                        <div class="card-body">
-                          <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
-
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
-
-                            <a href="#" class="btn text-white flex-grow-1" >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1" >Add To Cart</a>
-                          </div>
-                          
-                        </div>
-                      </div>
+                    </div>
 
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
 
                     <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0" style="top: 5%; background-color: #192655;">Latext Product</p>
-                        <img src="./asset/image/letest_product/latest-poduct-1.jpg" class="card-img-top" alt="product-img">
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext
+                            Product</p>
+                        <img src="./asset/image/letest_product/latest-poduct-2.jpg" class="card-img-top"
+                            alt="product-img">
                         <div class="card-body">
-                          <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
 
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
 
-                            <a href="#" class="btn text-white flex-grow-1" >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
-                          </div>
-                          
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
                         </div>
-                      </div>
-
-                </div>
-
-                <div class="slide-item px-lg-2 px-md-2 px-sm-2">
-                   
-                    <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext Product</p>
-                        <img src="./asset/image/letest_product/latest-poduct-3.jpg" class="card-img-top" alt="product-img">
-                        <div class="card-body">
-                          <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
-
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
-
-                            <a href="#" class="btn text-white flex-grow-1"  >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1" >Add To Cart</a>
-                          </div>
-                          
-                        </div>
-                      </div>
+                    </div>
 
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
 
                     <div class="card shadow-sm position-relative border-2" style="width: 18rem; ">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext Product</p>
-                        <img src="./asset/image/letest_product/latest-poduct-3.jpg" class="card-img-top" alt="product-img">
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext
+                            Product</p>
+                        <img src="./asset/image/letest_product/latest-poduct-3.jpg" class="card-img-top"
+                            alt="product-img">
                         <div class="card-body">
-                          <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
 
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
 
-                            <a href="#" class="btn text-white flex-grow-1" >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1" >Add To Cart</a>
-                          </div>
-                          
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
                         </div>
-                      </div>
+                    </div>
 
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
-                   
                     <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext Product</p>
-                        <img src="./asset/image/letest_product/latest-poduct-2.jpg" class="card-img-top" alt="product-img">
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext
+                            Product</p>
+                        <img src="./asset/image/letest_product/latest-poduct-4.jpg" class="card-img-top"
+                            alt="product-img">
                         <div class="card-body">
-                          <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
 
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
 
-                            <a href="#" class="btn text-white flex-grow-1"  >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1" >Add To Cart</a>
-                          </div>
-                          
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
                         </div>
-                      </div>
+                    </div>
+
+                </div>
+
+                <div class="slide-item px-lg-2 px-md-2 px-sm-2">
+
+                    <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0"
+                            style="top: 5%; background-color: #192655;">Latext Product</p>
+                        <img src="./asset/image/letest_product/latest-poduct-1.jpg" class="card-img-top"
+                            alt="product-img">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
+
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="slide-item px-lg-2 px-md-2 px-sm-2">
+
+                    <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext
+                            Product</p>
+                        <img src="./asset/image/letest_product/latest-poduct-3.jpg" class="card-img-top"
+                            alt="product-img">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
+
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="slide-item px-lg-2 px-md-2 px-sm-2">
+
+                    <div class="card shadow-sm position-relative border-2" style="width: 18rem; ">
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext
+                            Product</p>
+                        <img src="./asset/image/letest_product/latest-poduct-3.jpg" class="card-img-top"
+                            alt="product-img">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
+
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="slide-item px-lg-2 px-md-2 px-sm-2">
+
+                    <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Latext
+                            Product</p>
+                        <img src="./asset/image/letest_product/latest-poduct-2.jpg" class="card-img-top"
+                            alt="product-img">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
+
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
+                        </div>
+                    </div>
 
                 </div>
 
@@ -860,7 +751,8 @@
 
         <div class="letest-product px-lg-4 pt-4 px-2 overflow-hidden">
             <div class="d-flex justify-content-around">
-                <h1 class="fw-bold border-2 flex-grow-1 text-center border-start border-end border-black pb-2">Our brand Product </h1>
+                <h1 class="fw-bold border-2 flex-grow-1 text-center border-start border-end border-black pb-2">Our brand
+                    Product </h1>
             </div>
 
             <div class="product-slider pt-5 mt-5 mx-lg-4 mx-2">
@@ -868,50 +760,50 @@
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
 
                     <img src="./asset/image/brand/marvel-logo.jpg" class="img-fluid" alt="product-img">
-    
+
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
 
                     <img src="./asset/image/brand/nuage-brand-logo-icon.jpg" class="img-fluid" alt="product-img">
-    
+
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
 
                     <img src="./asset/image/brand/marvel-logo.jpg" class="img-fluid" alt="product-img">
-    
+
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
 
                     <img src="./asset/image/brand/nuage-brand-logo-icon.jpg" class="img-fluid" alt="product-img">
-    
+
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
 
                     <img src="./asset/image/brand/marvel-logo.jpg" class="img-fluid" alt="product-img">
-    
+
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
 
                     <img src="./asset/image/brand/nuage-brand-logo-icon.jpg" class="img-fluid" alt="product-img">
-    
+
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
 
                     <img src="./asset/image/brand/marvel-logo.jpg" class="img-fluid" alt="product-img">
-    
+
                 </div>
 
-              
 
-          
 
-  
+
+
+
 
             </div>
 
@@ -923,7 +815,7 @@
 
         <!-- example slide for future use -->
 
-<!-- 
+        <!-- 
         <div class="letest-product px-lg-4 pt-4 px-2 overflow-hidden">
             <div class="d-flex justify-content-around">
                 <h1 class="fw-bold border-bottom border-2 border-black pb-2">example slide for future added</h1>
@@ -1113,176 +1005,185 @@
 
         <div class="letest-product px-lg-4 pt-4 px-2 overflow-hidden">
             <div class="d-flex justify-content-around">
-                <h1 class="fw-bold border-start border-end border-2 flex-grow-1 text-center border-black pb-2">Best Sales</h1>
+                <h1 class="fw-bold border-start border-end border-2 flex-grow-1 text-center border-black pb-2">Best
+                    Sales</h1>
             </div>
 
             <div class="product-slider pt-5 mt-5 mx-lg-4 mx-2 ">
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
                     <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product</p>
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product
+                        </p>
                         <img src="./asset/image/best_sales/best-product-1.jpg" class="card-img-top" alt="product-img">
                         <div class="card-body">
-                          <h5 class="card-title fw-bold" > NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
 
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
 
-                            <a href="#" class="btn text-white flex-grow-1"  >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1"  >Add To Cart</a>
-                          </div>
-                          
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
                     <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product</p>
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product
+                        </p>
                         <img src="./asset/image/best_sales/best-product-2.jpg" class="card-img-top" alt="product-img">
                         <div class="card-body">
-                          <h5 class="card-title fw-bold" > NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
 
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
 
-                            <a href="#" class="btn text-white flex-grow-1"  >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1"  >Add To Cart</a>
-                          </div>
-                          
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
                     <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product</p>
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product
+                        </p>
                         <img src="./asset/image/best_sales/best-product-3.jpg" class="card-img-top" alt="product-img">
                         <div class="card-body">
-                          <h5 class="card-title fw-bold" > NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
 
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
 
-                            <a href="#" class="btn text-white flex-grow-1"  >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1"  >Add To Cart</a>
-                          </div>
-                          
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
                     <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product</p>
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product
+                        </p>
                         <img src="./asset/image/best_sales/best-product-4.jpg" class="card-img-top" alt="product-img">
                         <div class="card-body">
-                          <h5 class="card-title fw-bold" > NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
 
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
 
-                            <a href="#" class="btn text-white flex-grow-1"  >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1"  >Add To Cart</a>
-                          </div>
-                          
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
                     <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product</p>
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product
+                        </p>
                         <img src="./asset/image/best_sales/best-product-3.jpg" class="card-img-top" alt="product-img">
                         <div class="card-body">
-                          <h5 class="card-title fw-bold" > NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
 
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
 
-                            <a href="#" class="btn text-white flex-grow-1"  >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1"  >Add To Cart</a>
-                          </div>
-                          
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
                     <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product</p>
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product
+                        </p>
                         <img src="./asset/image/best_sales/best-product-2.jpg" class="card-img-top" alt="product-img">
                         <div class="card-body">
-                          <h5 class="card-title fw-bold" > NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
 
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
 
-                            <a href="#" class="btn text-white flex-grow-1"  >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1"  >Add To Cart</a>
-                          </div>
-                          
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
                     <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product</p>
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product
+                        </p>
                         <img src="./asset/image/best_sales/best-product-3.jpg" class="card-img-top" alt="product-img">
                         <div class="card-body">
-                          <h5 class="card-title fw-bold" > NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
 
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
 
-                            <a href="#" class="btn text-white flex-grow-1"  >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1"  >Add To Cart</a>
-                          </div>
-                          
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="slide-item px-lg-2 px-md-2 px-sm-2">
                     <div class="card shadow-sm position-relative border-2" style="width: 18rem;">
-                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product</p>
+                        <p class="position-absolute py-1 px-4 fw-bold text-white rounded-start-pill end-0">Brand Product
+                        </p>
                         <img src="./asset/image/best_sales/best-product-1.jpg" class="card-img-top" alt="product-img">
                         <div class="card-body">
-                          <h5 class="card-title fw-bold" > NEW CLASSIC PURPLE 8 WHEEL</h5>
-                          <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
-                          <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
-                          <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
+                            <h5 class="card-title fw-bold"> NEW CLASSIC PURPLE 8 WHEEL</h5>
+                            <p class="card-text m-0"><span class="fw-bold">Price : </span> 300 £</p>
+                            <p class="card-text m-0"><span class="fw-bold">code : </span> FI-603-PURPLE</p>
+                            <p class="card-text m-0"><span class="fw-bold">Pack Qty : </span> 1</p>
 
-                          <hr>
-                          <div class="d-flex gap-2 mt-1">
+                            <hr>
+                            <div class="d-flex gap-2 mt-1">
 
-                            <a href="#" class="btn text-white flex-grow-1"  >Buy</a>
-                            <a href="#" class="btn  text-white  flex-grow-1"  >Add To Cart</a>
-                          </div>
-                          
+                                <a href="#" class="btn text-white flex-grow-1">Buy</a>
+                                <a href="#" class="btn  text-white  flex-grow-1">Add To Cart</a>
+                            </div>
+
                         </div>
-                      </div>
+                    </div>
                 </div>
 
             </div>
@@ -1377,7 +1278,7 @@
 
     <!-- ==========================footer  section ================================ -->
     <footer class="pt-5 text-white" style="background-color: #192655;">
-      
+
         <div class="row  px-5 my-5">
 
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -1386,9 +1287,11 @@
                     <div class=" col-6">
                         <h5 class="fw-bold text-warning">Contact Us</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Whalley Range</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Whalley Range</a>
+                            </li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">john smith</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">lorem ispam</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">lorem ispam</a>
+                            </li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">FAQs</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">iftekher</a></li>
                         </ul>
@@ -1398,10 +1301,12 @@
                         <h5 class="fw-bold text-warning">About Us</h5>
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">About Us</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Information</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Information</a>
+                            </li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Blog</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Testimonials</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Testimonials</a>
+                            </li>
                         </ul>
 
                     </div>
@@ -1419,24 +1324,34 @@
                         <h5 class="text-center fw-bold text-warning text-lg-start">Customer Cares</h5>
                         <ul class="nav flex-column align-items-center align-items-lg-start">
                             <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Delivery</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Information</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Drop Shipping</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Terms & Conditions</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Information</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Drop Shipping</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Terms &
+                                    Conditions</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link text-white-50 p-0">Contact Us</a></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 p-0 m-0">
-  
+
                         <h3 class="text-center fw-bold text-white mb-3">Keep touch with us</h3>
-                        <div class="d-flex align-items-center justify-content-center gap-lg-4 gap-md-2 gap-sm-3 gap-4 fs-3">
-                            <li class="list-group-item"><a href="#" class="text-warning"> <i class="fa-brands fa-square-facebook"></i></a></li>
-                            <li class="list-group-item"><a href="#" class="text-warning"> <i class="fa-brands fa-instagram"></i> </a></li>
-                            <li class="list-group-item"><a href="#" class="text-warning"> <i class="fa-brands fa-square-twitter"></i> </a></li>
-                            <li class="list-group-item"><a href="#" class="text-warning"> <i class="fa-brands fa-square-youtube"></i> </a></li>
-                            <li class="list-group-item"><a href="#" class="text-warning"> <i class="fa-brands fa-square-pinterest"></i> </a></li>
-                            <li class="list-group-item"><a href="#" class="text-warning"> <i class="fa-brands fa-linkedin"></i> </a></li>
-        
+                        <div
+                            class="d-flex align-items-center justify-content-center gap-lg-4 gap-md-2 gap-sm-3 gap-4 fs-3">
+                            <li class="list-group-item"><a href="#" class="text-warning"> <i
+                                        class="fa-brands fa-square-facebook"></i></a></li>
+                            <li class="list-group-item"><a href="#" class="text-warning"> <i
+                                        class="fa-brands fa-instagram"></i> </a></li>
+                            <li class="list-group-item"><a href="#" class="text-warning"> <i
+                                        class="fa-brands fa-square-twitter"></i> </a></li>
+                            <li class="list-group-item"><a href="#" class="text-warning"> <i
+                                        class="fa-brands fa-square-youtube"></i> </a></li>
+                            <li class="list-group-item"><a href="#" class="text-warning"> <i
+                                        class="fa-brands fa-square-pinterest"></i> </a></li>
+                            <li class="list-group-item"><a href="#" class="text-warning"> <i
+                                        class="fa-brands fa-linkedin"></i> </a></li>
+
                         </div>
 
                     </div>
@@ -1448,14 +1363,14 @@
 
             </div>
 
-            </div>
+        </div>
 
 
 
         </div>
 
 
-        <div class="row p-5" style="background-color: #091233;" >
+        <div class="row p-5" style="background-color: #091233;">
             <div class="col-lg-6 col-lg-6 col-sm-12">
                 <form>
                     <h3 class="fw-bold text-warning">Sign Up to Our Newsletter</h3>
@@ -1463,7 +1378,8 @@
                     <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                         <label for="newsletter1" class="visually-hidden">Email address</label>
                         <input id="newsletter1" type="text" class="form-control rounded-2" placeholder="Email address">
-                        <button class="btn btn-warning text-white px-5 fw-bold rounded-2" type="button">Subscribe</button>
+                        <button class="btn btn-warning text-white px-5 fw-bold rounded-2"
+                            type="button">Subscribe</button>
                     </div>
                 </form>
             </div>
@@ -1482,30 +1398,45 @@
 
         <div class="border-top mx-5 border-warning"></div>
 
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-5 px-5" style="background-color: #091233;" >
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-5 px-5"
+            style="background-color: #091233;">
 
 
             <div class="row flex-grow-1">
                 <div class="col-12 col-sm-6">
-                <p class="copyright-footer text-white-50">
-                Company No: 3646346<br>
-                VAT Number GB 1545 4634 845<br>
-                EORI Number GB1565345345345<br>
-               Uk Whole Sale All Rights Reserved.</p>
+                    <p class="copyright-footer text-white-50">
+                        Company No: 3646346<br>
+                        VAT Number GB 1545 4634 845<br>
+                        EORI Number GB1565345345345<br>
+                        Uk Whole Sale All Rights Reserved.</p>
                 </div>
 
-                      <div class="col-12 col-sm-6 pull-right">
-                                        <h5>Shop Safely With A Business You Can Trust</h5>
-                                        <ul class="company-icons d-flex flex-wrap gap-2">
-                                            <li class="ssl-seal"><span id="siteseal"><img style="cursor:pointer;cursor:hand" src="https://seal.godaddy.com/images/3/en/siteseal_gd_3_h_d_m.gif" alt="SSL site seal - click to verify"></span></li>
-                                             <li class="footer-payment-logos"><img loading="lazy" src="https://www.poundwholesale.co.uk/static/version1697786074/frontend/PoundPlus/wholesale/en_GB/images/payment-cc-logos.png" title="payment logos" alt="payment logos" width="320px" height="60px"></li>
-                                            <li class="sage-logos"><img loading="lazy" src="https://www.poundwholesale.co.uk/static/version1697786074/frontend/PoundPlus/wholesale/en_GB/images/payments_sagepay.png" title="Payment By Sage" alt="Payment By Sage"><img loading="lazy" src="https://www.poundwholesale.co.uk/static/version1697786074/frontend/PoundPlus/wholesale/en_GB/images/secured_sagepay.png" title="Secured By Sage" alt="Secured By Sage"></li>
-                                            <li><img loading="lazy" src="https://www.poundwholesale.co.uk/static/version1697786074/frontend/PoundPlus/wholesale/en_GB/images/footer-bottom-icons_01.jpg" title="" alt=""></li>
-                                            <li><img loading="lazy" src="https://www.poundwholesale.co.uk/static/version1697786074/frontend/PoundPlus/wholesale/en_GB/images/footer-bottom-icons_02.jpg" title="" alt=""></li>
-                                            <li><img loading="lazy" src="https://www.poundwholesale.co.uk/static/version1697786074/frontend/PoundPlus/wholesale/en_GB/images/footer-bottom-icons_03.jpg" title="" alt=""></li>
-                                       </ul>
-                        </div>
+                <div class="col-12 col-sm-6 pull-right">
+                    <h5>Shop Safely With A Business You Can Trust</h5>
+                    <ul class="company-icons d-flex flex-wrap gap-2">
+                        <li class="ssl-seal"><span id="siteseal"><img style="cursor:pointer;cursor:hand"
+                                    src="https://seal.godaddy.com/images/3/en/siteseal_gd_3_h_d_m.gif"
+                                    alt="SSL site seal - click to verify"></span></li>
+                        <li class="footer-payment-logos"><img loading="lazy"
+                                src="https://www.poundwholesale.co.uk/static/version1697786074/frontend/PoundPlus/wholesale/en_GB/images/payment-cc-logos.png"
+                                title="payment logos" alt="payment logos" width="320px" height="60px"></li>
+                        <li class="sage-logos"><img loading="lazy"
+                                src="https://www.poundwholesale.co.uk/static/version1697786074/frontend/PoundPlus/wholesale/en_GB/images/payments_sagepay.png"
+                                title="Payment By Sage" alt="Payment By Sage"><img loading="lazy"
+                                src="https://www.poundwholesale.co.uk/static/version1697786074/frontend/PoundPlus/wholesale/en_GB/images/secured_sagepay.png"
+                                title="Secured By Sage" alt="Secured By Sage"></li>
+                        <li><img loading="lazy"
+                                src="https://www.poundwholesale.co.uk/static/version1697786074/frontend/PoundPlus/wholesale/en_GB/images/footer-bottom-icons_01.jpg"
+                                title="" alt=""></li>
+                        <li><img loading="lazy"
+                                src="https://www.poundwholesale.co.uk/static/version1697786074/frontend/PoundPlus/wholesale/en_GB/images/footer-bottom-icons_02.jpg"
+                                title="" alt=""></li>
+                        <li><img loading="lazy"
+                                src="https://www.poundwholesale.co.uk/static/version1697786074/frontend/PoundPlus/wholesale/en_GB/images/footer-bottom-icons_03.jpg"
+                                title="" alt=""></li>
+                    </ul>
                 </div>
+            </div>
 
 
 
@@ -1517,11 +1448,11 @@
 
 
     <!-- ==============bootstrap js link path=============== -->
-    <script src="./asset/plugins/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./asset/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- ==========jquery js link path================ -->
     <script src="./asset/plugins/jquery/dist/jquery.min.js"></script>
     <!-- ====================slick slider============================ -->
-    <script src="./asset/js/slick/slick.min.js"></script>
+    <script src="./asset/plugins/slick/slick.min.js"></script>
     <!-- ====================custom js link path==================== -->
     <script src="./asset/js/main.js"></script>
 
